@@ -1,0 +1,589 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color:  white;
+    height: 2300px;
+}
+
+.header {
+   
+    width: 100%;
+    height: 700px;
+}
+
+.login {
+    margin: auto;
+
+}
+
+.login a {
+    background-color: dodgerblue;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+.login a:hover {
+    color: black;
+    background-color: orange;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80px;
+    float: left;
+}
+
+.box1 {
+    display: flex;
+    
+}
+
+.menu {
+  display: flex;
+ margin-left: 0px;
+}
+
+.menu li {
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+padding: 120px;
+    color: black;
+font-weight: 800;
+text-decoration: none;
+}
+
+.menu li a:hover {
+    color: red;
+
+
+}
+
+#menuSmall {
+}
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+.namenho {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+
+.Name-aside{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: darkcyan;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.aside-box1{
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.aside-box1-1{
+    width: 45%;    
+}
+.aside-box1-namelon{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: brown;
+}
+.aside-box1-namenho{
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+}
+.aside-box1-2{
+    width: 45%;
+    
+}
+.aside-khampha{
+    margin-top: 5px;
+}
+.aside-khampha a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+}
+.aside-khampha a:hover{
+    color: orange;
+}
+.uudai{
+    
+}
+.uudai>p{
+
+    font-size: 28px;
+    font-weight: bolder;
+    color: maroon;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+.uudai-box1{
+    width: 25%;
+    overflow: hidden;
+}
+.uudai-box1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.uudai-box1 img{
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(15, 25, 78);
+    width: 100%;
+}
+.footer-box1{
+    width: 20%;
+    height: 300px;
+}
+.footer-box1-name1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.footer-box1-name2 a{
+    text-decoration: none;
+    color: orange;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.footer-box1-name3{
+    color: white;
+    font-size: 15px;
+}
+.footer-box2-name1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer-box2-name2{
+}
+.footer-box2-name2 a{
+    text-decoration: none;
+    color: darkgray;
+    
+}
+.footer-box2-name2 a:hover{
+    color: wheat;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row img{
+    width: 100%;
+    margin: 0px 0px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow:  0 0 10px cadetblue;
+    border-radius: 10px;
+}
+.column{
+    margin-top: 20px;
+}
+
+.datngay{
+    line-height: 20px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: orange;
+}
+.datngay:hover{
+    background-color: orangered;
+}
+
+
+
+.row-uudai{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.row-uudai img{
+    width: 100%;
+    margin: 0px 0px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow:  0 0 10px cadetblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.column-uudai{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.column-uudai a{
+    text-decoration: none;
+    color: black;
+    
+}
+.column-uudai a:hover{
+    color: tomato;
+}
+.row-footer {
+    display: flex;
+    background-color: rgb(15, 25, 78);
+    justify-content: center;
+}
+.column-footer{
+    margin-top: 30px;
+}
+/* dien thoai doc */
+@media all and (min-width: 240px) {
+        .menu {
+            display: none;
+
+        }
+        .banner img{
+            width: 100%;
+        }
+        .logo{
+
+        }
+        .menu li {
+            width: 100%;
+            display: inline-block;
+        }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .logo img {
+        max-height: 60px;
+      }
+      
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav li:last-child {
+        margin-right: 0;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.2s;
+      }
+      
+      nav a:hover {
+        color: #ff6f61;
+      }
+      
+    .aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside-box1{
+        width: 100%;
+    }
+    .login {
+        display: none;
+    }
+    .article{
+        display: none;
+    }
+    .aside-box1{
+        display: flex;
+    }
+    .uudai{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uudai-box{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        }
+        .column{
+        width: 100%;
+    }
+
+
+    .row-uudai{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-uudai{
+        width: 100%;
+    }
+
+    .row-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-footer{
+        width: 100%;
+    }
+    .kodfun-galeri{
+text-align: center;
+                display: flex;
+                height: 20rem;
+                gap: 0.5rem;
+              }
+              .kodfun-galeri div{
+                flex: 1;
+                border-radius: 1rem;
+                /* background-position: center; */
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition:all .8s cubic-bezier(.25, .4, 4.45, 1.4) ;
+              } .kodfun-galeri div:hover{
+                flex: 5;
+              }
+}
+
+/* Điện thoại ngang */
+@media all and (min-width: 576px) {
+    #menuSmall {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+    .menu li {
+        display: inline;
+        /* border: 1px solid;                */
+    }
+    .aside{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .aside-box1{
+        width: 50%;
+    }
+    .menu li a{
+        
+        padding: 20px;
+    }
+
+
+
+    .column{
+        width: 50%;
+    }
+    .row{
+    display: flex;
+   flex-flow: wrap;
+    }
+    
+
+    .column-uudai{
+        width: 50%;
+    }
+    .row-uudai{
+    display: flex;
+   flex-flow: wrap;
+    }
+
+
+    .column-footer{
+        width: 50%;
+    }
+    .row-footer{
+    display: flex;
+   flex-flow: wrap;
+    }
+    footer{
+        display: flex;
+        justify-content: center;    
+    }
+    .footer-box1{
+        margin-top: 30px;
+    }
+    .aside-box1{
+        width: 25%;
+    }
+    .column{
+        width: 20%;
+    }
+    .column-uudai{
+        width: 25%;
+    }
+    .column-footer{
+        width: 20%;
+    }
+}
+
+    /* Máy tính bảng */
+    @media all and (min-width: 768px) {
+
+    }
+
+    /* màn hình máy tính */
+    @media all and (min-width: 992px) {
+        .login{
+            margin-top: 20px;
+            display: block;
+        }
+        .menu{
+             margin-left: 100px;   
+        }
+       
+        .aside p{
+            margin-left: 35px;
+        }
+        footer{
+            display: flex;
+            justify-content: center;    
+        }
+        .footer-box1{
+            margin-top: 30px;
+        }
+        .aside-box1{
+            width: 25%;
+        }
+        .column{
+            width: 20%;
+        }
+        .column-uudai{
+            width: 25%;
+        }
+        .column-footer{
+            width: 20%;
+        }
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #2196f3;
+        color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .button:active {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+      .kodfun-galeri{
+margin-top: 20px;
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+      }
+      .kodfun-galeri div{
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition:all .8s cubic-bezier(.25, .4, .45, 1.4) ;
+      } .kodfun-galeri div:hover{
+        flex: 5;
+      }
+      .fa-facebook {
+        color: blue;
+        
+       
+      font-size: 24px;
+        
+       
+      margin-right: 5px;
+      }.youtube-icon {
+        display: inline-block;
+        width: 20px;
+        
+       
+      height: 20px;
+        
+       
+      background-image: url('youtube-icon.png');
+        background-size: cover;
+      }
+      
+      .twitch-icon {
+        
+       
+      display: inline-block;
+        
+       
+      width: 20px;
+        height: 20px;
+        background-image: url('twitch-icon.png');
+        background-size: cover;
+      }.fa-youtube, .fa-twitch {
+        color: red;
+        
+       
+      font-size: 24px;
+        
+       
+      margin-right: 5px;
+      }.ft1 ul li a {
+color: #fff;
+text-decoration: none;
+      }.ft1 ul li a:hover{
+        color: red;
+      }
